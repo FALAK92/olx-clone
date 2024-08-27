@@ -1,0 +1,148 @@
+#dropdownMenuButton1 {
+    width: 250px;
+    height: 50px;
+    border-color: gray;
+    text-align: left;
+
+}
+
+#placeholder {
+    width: 650px;
+}
+
+
+#sell {
+    border-radius: 700px;
+    border-width: 4px;
+    font-weight: bold;
+    font-size: larger;
+    /* background-image: linear-gradient(to right, #ff7e5f, #feb47b); */
+
+    border-image: linear-gradient(to right, #ffef5f, #7bd9fe) 3;
+
+
+}
+
+#login {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: larger
+}
+
+.dropdown {
+    margin-right: 1rem;
+}
+
+
+.logo-container,
+#motor,
+#property {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container a {
+    margin-right: 30px;
+}
+
+.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap onto the next line */
+    gap: 50px;
+    margin-top: 30px;
+
+}
+
+.subheading {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.category-item {
+    text-align: center;
+}
+
+.category-item img {
+    margin-left: 10px;
+}
+
+.category-item span {
+    display: block;
+    /* Makes sure the text appears on a new line */
+    margin-top: 10px;
+    /* Space between image and text */
+}
+
+.sec3,
+.sec4,
+.sec5,
+.sec6,
+.sec7,
+.sec8,
+.sec9 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bi-suit-heart {
+    float: right;
+}
+
+.olxapp {
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f1eeee; 
+    padding: 20px;
+
+  }
+   
+  .footer-section h6 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  } 
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    text-transform: capitalize;
+  }  
+ 
+  .footer-section ul li a {
+    text-decoration: none;
+    color:gray;
+    font-size: small;
+  }
+  .footer-section ul li a:hover {
+    color: black;
+  }
+  .social-icons {
+    display: flex;
+    list-style: none;} 
+
+  .social-icons li {
+    margin-right: 15px;
+  }
+   .footerimg{
+    margin: 5px;
+   }
+
+ .copyright{
+    background-color:rgba(1, 32, 44, 0.993);
+    color: white;
+    height: 50px;
+    text-align: right;
+    padding-inline-end:50px ;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+ }
